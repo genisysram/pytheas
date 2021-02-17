@@ -3,7 +3,7 @@ arch:
     - ppc64le
 language: java
 jdk:
-- openjdk11
+- openjdk10
 sudo: false
 install: true
 script: "./buildViaTravis.sh"
